@@ -1,0 +1,224 @@
+*{
+    margin: 0px;  
+    padding: 0px;
+}
+#navbar{
+    display:flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before{
+    content:"";
+    position:absolute;  
+    top: 0px;
+    left: 0px;
+    background-color: rgb(93, 93, 93);
+    height:100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.9; 
+    } 
+
+#logo img{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    border-radius: 25px;
+    margin: 10px;
+    z-index: 1;
+}
+#navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+#navbar ul li{
+    display: inline-block;
+   list-style: none;
+   font-size: 1.5rem;
+   margin: 0.5rem;
+   transform: skew(-15deg);
+   /* align-items: center;
+   justify-content: center; */
+}
+#navbar ul li a{   
+    display: inline-block;
+    color:rgb(255, 100, 0);
+    padding:0.5rem 1rem;
+    text-decoration: none;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: 700;
+    transition: all 0.5s linear ;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: rgb(255, 100, 0);
+}
+
+.item{ margin:0px; }
+.signUp{
+    display: flex;
+    border:rgb(255, 100, 0) solid 2px;
+    border-radius: 5px;
+    /* background-color: black; */
+    position:sticky;
+    float:right;
+    transition: all 0.5s linear ;
+}
+.signUp a
+{
+    display: flex;
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    float:right;
+    padding: 1rem;
+    font: bold;
+}
+.signUp a:hover
+{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    border: 2px solid black;
+    background-color: rgb(255, 100, 0);
+}
+.signUp a:visited
+{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    background-color: rgb(255, 100, 0);
+}
+.signUp a:visited
+{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font: bold;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('images/omlette.jpg') no-repeat center/cover;
+
+    /* border: 2px solid lime; */
+    /* padding: 0px 0px; */
+    /* top:20px; */
+    /* height: 630px; */
+}
+/* #home::before{
+    content:"";
+    position:absolute;  
+    background: url('images/omlette.jpg') no-repeat center/cover; 
+    top: 0px;
+    left: 0px; 
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.8; 
+
+    }  */
+#home h1, p{
+    color: rgb(251, 255, 0);
+    text-align: center;
+    font-size: 1.5rem;
+}
+.services-container{
+/* border:2px solid green; */
+display: flex;
+margin: 10px;
+flex-direction: row;
+}
+.box{
+    margin: 10px;
+    background-color: rgb(156, 156, 156);
+    /* border: solid 2px lime; */
+    border-radius: 50px;
+}
+
+.box img{
+    display:block;
+    width: 80%;
+    margin:auto;
+    border-radius: 50px;
+}
+.h-box{
+    font-size: 2rem;
+    padding: 30px;
+}
+.h-primary{
+    font-size: 3rem;
+    padding: 12px;
+    color: rgb(255, 100, 0);
+    display: flex;
+  justify-content: center;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;   
+}
+.center{
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.partners-container
+{
+    /* border:2px solid green; */
+    display: flex;
+    overflow:hidden;
+    margin: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+.partners-box
+{
+    margin: 0.5rem;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    /* border: solid 2px lime; */
+}
+.partners-box img
+{
+    margin:auto;
+    max-width: 100%;
+    width:100%;
+    padding:2px 0px;
+    justify-content: center;
+}
+#down
+{
+    background-color: rgb(255, 100, 0);
+    /* border: solid green 2px; */
+    display: flex;
+    justify-content:space-between;
+}
+#down div
+{
+    /* background-color: purple; */
+    /* border: solid blue 2px; */
+    padding: 25px;
+    border-left: 1px solid red;
+}
+#down div p
+{   
+    font-size: smaller;
+    color: black;
+    text-align: left;
+}
+.address
+{
+    color:black;
+}

@@ -1,0 +1,35 @@
+.item a{
+    font-size: x-small;
+}
+#navbar ul li
+{
+    font-size: 1rem;
+    padding: 0.1rem; 
+}
+#navbar ul li a 
+{
+    /* border: lime 3px solid;   */
+    font-size: 0.5rem;
+    padding: 0.1rem;
+    margin: 0rem;
+    float: right;
+}
+.signUp
+{
+    font-size: 0.5rem ;
+    padding: 0.1rem;
+    margin: 0rem;
+}
+.services-container{
+    flex-direction: column;
+}
+.box p{
+    font-size: medium;
+
+}
+#down{
+    flex-direction: column;
+}
+#down div{
+    border-bottom: 1px solid red;
+}
