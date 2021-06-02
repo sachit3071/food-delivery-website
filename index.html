@@ -8,86 +8,117 @@
     <title>Best online Food delivery</title>
     <link rel="icon" href="images/C21-Mall.jpg" type="image/x-icon">
     <link rel="stylesheet" href="index-css.css">
-    <link rel="stylesheet" media="screen and (max-width:450px)" href="index-phone-css.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width:450px)" href="index-phone-css.css"> -->
+    <script type="text/javascript" src="index.js"></script>
 </head>
 
 <body>
     <nav id="navbar">
-        <div id="logo">
-            <img src="images/C21-Mall.jpg" alt="logo">
-        </div>
-        <ul>
-            <li class="item"><a href="#">Home</a></li>
-            <li class="item"><a href="#">Services</a></li>
-            <li class="item"><a href="#">About us</a></li>
-            <li class="item"><a href="#">Contact us</a></li>
-        </ul>
-        <div class="signUp"><a href="/login.html">Login/Sign Up</a></div>
+        <div id="logo"><img src="images/C21-Mall.jpg" alt="logo"></div>
+        <div class="item"><a href="#">Home</a></div>
+        <div class="item"><a href="#">Services</a></div>
+        <div class="item"><a href="#">About us</a></div>
+        <div class="item"><a href="#">Contact us</a></div>
+        <div class="item"></div>
     </nav>
-    <section id="home">
-        <h1>Welcome to my online meal website</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, sapiente magni sequi, quia fugit est a iste
-            dignissimos nostrum tempore unde quam eum asperiores perferendis ex animi ad maiores aliquam voluptate porro
-            magnam blanditiis.</p>
-        <button class="btn">order now</button>
-    </section>
-    <section>
-        <h1 class="h-primary center">Our Services</h1>
-        <section class="services-container">
+    <div id="main-container">
+        <div id="home">
+            <div class="section-1">
+                <div class="panel-1">
+                    <div class="flex-container">
+                        <div></div>
+                        <div class="signUp"><a href="/login.html">Login</a></div>
+                        <div class="signUp"><a href="/login.html">Sign Up</a></div>
+                    </div>
+                    <span id="variate">change this!</span>
+                    <h1>Order food from favourite restaurants near you.</h1>
+                    <div class="location-container">
+                        <input type="text" placeholder="Enter your delivery location" name="location" id="location">
+                        <a class="submit-location" href="#"><span>FIND FOOD</span></a>
+                    </div>
+                    <h4>POPULAR CITIES IN INDIA</h4>
+                    <h4>Mumbai Pune Bangalore Hyderabad Chennai Delhi Kolkata</h4>
+                </div>
+            </div>
+            <div class="section-2"
+                style="background-image:url('https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq')">
+            </div>
+        </div>
+        <!-- <div class="_2h2bu" style="background-image:url()"></div> -->
+        <!-- <h1 class="h-primary center">Our Services</h1> -->
+        <div class="services-container">
             <div class="box">
-                <h2 class="h-box center">Food Ordering</h2>
-                <img src="images/delivery-boy.jpg" alt="Delivery boy" class="centerimg">
-                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iusto, facilis inventore
-                    vel
-                    eligendi quo necessitatibus quam? Velit dignissimos deserunt nam amet, dolores laudantium nihil
-                    aspernatur ad distinctio culpa, molestias cupiditate cum quisquam assumenda?</p>
+                <div class="details">
+                    <h2 class="h-box">Really Good Restaurants</h2>
+                    <p>We partner with the coolest/best spots in your city. Because that's what we're all
+                        about.</p>
+                    </div>
+                    <div class="details"></div>
+                    <div class="box-img first-box">
+                    </div>
             </div>
             <div class="box">
-                <h2 class="h-box center">Pizza</h2>
-                <img src="images/pizza.jpg" alt="Pizza" class="centerimg">
-                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iusto, facilis inventore
-                    vel
-                    eligendi quo necessitatibus quam? Velit dignissimos deserunt nam amet, dolores laudantium nihil
-                    aspernatur ad distinctio culpa, molestias cupiditate cum quisquam assumenda?</p>
+                <div class="box-img second-box">
+                </div>
+                <div class="details"></div>
+                <div class="details">
+                <h2 class="h-box">Live Order Tracking</h2>
+                <p>Know where your order is at all times, from the restaurant to your doorstep</p>
+            </div>
             </div>
             <div class="box">
-                <h2 class="h-box center">Burger</h2>
-                <img src="images/burger.jpg" alt="Burger" class="centerimg">
-                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iusto, facilis inventore
-                    vel eligendi quo necessitatibus quam? Velit dignissimos deserunt nam amet, dolores laudantium nihil
-                    aspernatur ad distinctio culpa, molestias cupiditate cum quisquam assumenda?</p>
+                <div class="details">
+                    <h2 class="h-box">Lightening fast delivery</h2>
+                    <p>Experience Swiggy's superfast delivery for food delivered fresh & on time</p>
+                </div>
+                <div class="details"></div>
+                <div class="box-img third-box">
+                </div>
             </div>
+            <div class="box">
+                <div class="box-img fourth-box">
+                </div>
+                <div class="details"></div>
+                <div class="details">
+                    <h2 class="h-box">We also have an app.</h2>
+                    <p>It's convenient to have on your phone, fun to look at, etc.</p>
+                    <div class="appstore">
+                        <a href="#" ><img src="https://i2.wp.com/confessionsappbook.com/wp-content/uploads/2014/12/googlePlay.png?fit=2954%2C1000&ssl=1" alt="android playstore" class="apps"></a>
+                        <a href="#" ><img src="../images/App-store.png" alt="apple appstore" class="apps"></a>
+                    </div>
+                    </div>
             </div>
-        </section>
-    </section>
-    <section id="partners">
-        <h1 class="h-primary center">Our partners</h1>
-        <div class="partners-container">
-            <div class="partners-box"><img src="images/domino's Pizza.png" alt="Domino's Pizza" class="box-img"></div>
-            <div class="partners-box"><img src="images/McDonald's.png" alt="MacD" class="box-img"></div>
-            <div class="partners-box"><img src="images/Swiggy.png" alt="Swiggy" class="box-img"></div>
-            <div class="partners-box"><img src="images/Uber.png" alt="Uber" class="box-img"></div>
-            <div class="partners-box"><img src="images/Zomato.jpg" alt="Zomato" class="box-img"></div>
         </div>
-    </section>
-    <section id="down">
-        <div>
-            <p>Accessibility</p>
-            <p>Terms and Conditions</p>
-            <p>Charity Informaton</p>
-            <p>Freedom of Information</p>
+        <!-- <div id="partners">
+            <h1 class="h-primary center">Our partners</h1>
+            <div class="partners-container">
+                <div class="partners-box"><img src="images/domino's Pizza.png" alt="Domino's Pizza" class="box-img">
+                </div>
+                <div class="partners-box"><img src="images/McDonald's.png" alt="MacD" class="box-img"></div>
+                <div class="partners-box"><img src="images/Swiggy.png" alt="Swiggy" class="box-img"></div>
+                <div class="partners-box"><img src="images/Uber.png" alt="Uber" class="box-img"></div>
+                <div class="partners-box"><img src="images/Zomato.jpg" alt="Zomato" class="box-img"></div>
+            </div>
+        </div> -->
+        <div id="down">
+            <div>
+                <p>Accessibility</p>
+                <p>Terms and Conditions</p>
+                <p>Charity Informaton</p>
+                <p>Freedom of Information</p>
+            </div>
+            <div>
+                <p>Privacy</p>
+                <p>Cookies</p>
+                <p>Staff email</p>
+                <p>Student Unihub</p>
+            </div>
+            <div>
+                <p class="address">Middlesex University, The Burroughs,Hendon, London NW4 4BT Switchboard: +44
+                    (0)2084115000</p>
+            </div>
         </div>
-        <div>
-            <p>Privacy</p>
-            <p>Cookies</p>
-            <p>Staff email</p>
-            <p>Student Unihub</p>
-        </div>
-        <div>
-            <p class="address">Middlesex University, The Burroughs,Hendon, London NW4 4BT Switchboard: +44 (0)20 8411
-                5000</p>
-        </div>
-    </section>
+    </div>
 </body>
 
 </html>
