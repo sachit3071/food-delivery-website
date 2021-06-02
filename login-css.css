@@ -12,7 +12,8 @@ z-index: -2;
 {
     width: 75%;
     border-radius: 10px;
-    background-color: rgb(100, 100, 100);
+    background-color: rgba(114, 114, 114, 0.63));
+    backdrop-filter: blur(10px);
     display: block;
     margin: 2rem;
     opacity: 0.7;
@@ -31,7 +32,7 @@ z-index: -2;
     /* border: #003790 1px solid ; */
     display: inline-block;
     float:left;
-    font-size: 1rem;
+    font-size: 1vw;
 
 }
 .col-25
@@ -40,7 +41,7 @@ z-index: -2;
     display: inline-block;
     width:25%;
     float:left;
-    font-size: 1rem;
+    font-size: 2vw;
     color: white;
 }
 .col-75
@@ -49,7 +50,7 @@ z-index: -2;
     width:75%;
     float:left;
     color: white;
-    font-size: 1rem;
+    font-size: 2vw;
 }
 .col-center
 {  
@@ -61,7 +62,7 @@ z-index: -2;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    font-size: 1rem;
+    font-size: 2vw;
 }
 .col-100
 {
@@ -70,7 +71,7 @@ z-index: -2;
     width:100%;
     text-align: center;
     /* border: #003790 1px solid; */
-    font-size: 1rem;
+    font-size: 2vw;
 }
 input[type=text], [type=number] 
 { 
@@ -120,7 +121,7 @@ input[type=submit]:hover {
 }
 .col-center a
 {
-color: rgb(176, 58, 255);
+/* color: rgb(176, 58, 255); */
 font-weight: 500;
 background-color: transparent;
 text-decoration: none;
